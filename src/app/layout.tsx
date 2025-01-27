@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.png" sizes="any" />
       </head>
-      <body>
+      <body className="min-h-screen flex flex-col">
         <header
           className="flex items-center justify-between shadow-lg px-4 sm:px-10 
          bg-[#e1dfe8] text-white font-sans min-h-[70px] tracking-wide relative z-50 py-2"
@@ -43,7 +43,9 @@ export default function RootLayout({
             </a>
           </nav>
         </header>{" "}
-        {children}
+        <div className="bg-[#e1dfe8] flex-grow pb-20">
+          {children}
+        </div>
       </body>
     </html>
   );

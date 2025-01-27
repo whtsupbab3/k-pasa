@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-[#e1dfe8] text-[#17364c]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-[#e1dfe8] text-[#17364c]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:px-40x px-30 md:px-10  py-0">
         <img src="/logo.png" alt="Logo" className="h-36" />
         <p>
